@@ -1,0 +1,136 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles pour le header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles pour la navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Styles pour les sections */
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Styles pour les liens dans les sections */
+  section a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Styles pour les vidéos */
+  video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les audios */
+  audio {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour le formulaire */
+  form {
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Styles pour le tableau */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  td {
+    color: red;
+    vertical-align: middle;
+  }
+  
+  /* Styles pour le survol */
+  section:hover,
+  a:hover {
+    background-color: #efa6a69e;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles pour le footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+    margin: 0;
+  }
+  
